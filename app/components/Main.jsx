@@ -1,6 +1,7 @@
 var React = require('react');
 var Navigation = require('Navigation');
 
+
 var Main = (props) => {
     return (
       <div>      
@@ -8,6 +9,7 @@ var Main = (props) => {
           <div>
               <Navigation/>
               <p>Main.jsx Rendered</p>
+          
               {props.children}
           </div>
         </div>        

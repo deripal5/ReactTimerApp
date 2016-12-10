@@ -10,17 +10,17 @@ var Navigation = () => {
             <li className="menu-text">React Timer App</li>
                      
             <li>
-              <Link to="/"> Timer</Link>
+              <IndexLink to="/" activeClassName="active-link"> Timer</IndexLink>
             </li>
              <li>
-              <Link to="/">Countdown</Link>
+              <Link to="/countdown" activeClassName="active-link">Countdown</Link>
             </li>
           </ul>
         </div>
         <div className="top-bar-right">
             <ul className="menu">
               <li className="menu-text">
-                Created By <a href="#" target="_blank" >Urip</a>
+                Created By <a href="https://github.com/deripal5/ReactTimerApp" target="_blank" >Urip Palatama</a>
               </li>   
                                 
             </ul>
